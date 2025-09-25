@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DevopsTrainingApplication {
 
     private DevopsTrainingApplication() {
-        throw new IllegalStateException("Utility class");
+        // prevent instantiation
     }
+
     public static void main(String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
     }
