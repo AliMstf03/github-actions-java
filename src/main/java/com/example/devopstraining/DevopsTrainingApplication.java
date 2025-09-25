@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DevopsTrainingApplication {
 
     private DevopsTrainingApplication() {
-        // prevent instantiation
+        //Error 1
     }
 
     public static void main(String[] args) {
