@@ -5,10 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public final class DevopsTrainingApplication {
+
     public static void main(final String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
     }
-    private DevopsTrainingApplication() {
-        //Error 1
-    }
+    @SuppressWarnings("unused")
+    private final String appName = "DevopsTrainingApplication";
+
+    
 }
